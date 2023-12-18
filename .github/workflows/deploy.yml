@@ -60,6 +60,7 @@ jobs:
       with:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: ap-northeast-2
 
     # S3에 프로젝트를 업로드 합니다.
     - name: S3에 프로젝트 업로드
