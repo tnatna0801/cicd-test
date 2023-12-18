@@ -48,7 +48,7 @@ jobs:
         cp ./docker-compose.blue.yml ./deploy/
         cp ./docker-compose.green.yml ./deploy/
         cp ./appspec.yml ./deploy/
-        cp .Dockerfile ./deploy/
+        cp Dockerfile ./deploy/
         cp ./*.sh ./deploy/
         cp ./build/libs/*.jar ./deploy/
         zip -r -qq -j ./cicd-test-build.zip ./deploy
