@@ -67,7 +67,7 @@ jobs:
       run: |
         aws s3 cp \
         --region ap-northeast-2 \
-        ./cicd-build.zip s3://cicd-test-sample-bucket
+        ./cicd-test-build.zip s3://cicd-test-sample-bucket
 
     # CodeDelploy에 배포를 요청합니다.
     - name: Code Deploy 배포 요청
