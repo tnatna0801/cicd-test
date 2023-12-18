@@ -2,10 +2,8 @@ name: Cicd-Test - CI/CD
 
 on:
   pull_request:
-  	# main branch, dev branch에 pr 할경우 동작합니다.
     branches: ["main", "dev"]
   push:
-    # dev branch에 push 하면 동작합니다.
     branches: ["dev"]
 
 
