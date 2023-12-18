@@ -1,4 +1,4 @@
-name: Cicd-Test - CI/CD
+name: Cicd-Test - CI/CD(build)
 
 on:
   pull_request:
